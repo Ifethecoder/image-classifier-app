@@ -85,7 +85,7 @@ if __name__ == "__main__":
     parser.add_argument("--arch", type=str, default="vgg16", help="Model architecture (e.g., 'vgg16')")
     parser.add_argument("--learning_rate", type=float, default=0.003, help="Learning rate for the optimizer")
     parser.add_argument("--hidden_units", type=int, default=256, help="Number of hidden units")
-    parser.add_argument("--epochs", type=int, default=5, help="Number of epochs for training")
+    parser.add_argument("--epochs", type=int, default=3, help="Number of epochs for training")
     parser.add_argument("--gpu", action="store_true", help="Use GPU if available")
 
     args = parser.parse_args()
