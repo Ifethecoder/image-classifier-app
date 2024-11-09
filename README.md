@@ -54,8 +54,6 @@ checkpoints/checkpoint.pth: Model checkpoint file.
 ## Note: 
 A sample dataset of flower images is provided with the project, along with a JSON file that maps category labels to flower names. You can use this dataset to train your own model if desired.
 
-Additionally, a pretrained model checkpoint is included in the checkpoints folder, which you can use to start making predictions immediately. If you'd like to train the model from scratch, feel free to delete the existing checkpoint file to create a new one.
-
 
 
 
