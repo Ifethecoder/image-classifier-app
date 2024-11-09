@@ -34,7 +34,7 @@ python train.py data --save_dir checkpoints --arch vgg16 --learning_rate 0.01 --
 #### Training Arguments:
 data: Path to the dataset directory.  
 --save_dir: Directory to save the trained model checkpoint.  
---arch: Model architecture (vgg13, vgg16, etc.).  
+--arch: Model architecture (vgg13 or vgg16).  
 --learning_rate: Learning rate for the optimizer.  
 --hidden_units: Number of hidden units in the classifier layer.  
 --epochs: Number of epochs for training.  
@@ -51,7 +51,8 @@ checkpoints/checkpoint.pth: Model checkpoint file.
 --category_names: Path to JSON file mapping class indices to names.  
 --gpu: Use GPU for inference if available.  
 
-
+## Note: 
+A sample dataset of flower images is provided with the project, along with a JSON file that maps category labels to flower names. You can use this dataset to train your own model if desired.
 
 
 
