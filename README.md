@@ -9,17 +9,17 @@ This project is a command-line application built with PyTorch and allows users t
 
 ## Getting Started
 
-### 1. Clone the Repository
-Clone the repository and navigate into the project directory:
-git clone https://github.com/Ifethecoder/image-classifier-app.git
+### 1. Clone the Repository  
+Clone the repository and navigate into the project directory:  
+git clone https://github.com/Ifethecoder/image-classifier-app.git  
 cd image-classifier-app
 
-### 2. Install Dependencies
-Make sure Python 3.x is installed, then install dependencies from requirements.txt:
-pip install -r requirements.txt
+### 2. Install Dependencies  
+Make sure Python 3.x is installed, then install dependencies from requirements.txt:  
+pip install -r requirements.txt  
 
-### 3. Prepare the Dataset
-This application uses images structured in the following format, compatible with torchvision.datasets.ImageFolder:
+### 3. Prepare the Dataset  
+This application uses images structured in the following format, compatible with torchvision.datasets.ImageFolder:  
 
 data/
 ├── train/
