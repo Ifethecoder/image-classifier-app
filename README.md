@@ -48,7 +48,7 @@ python predict.py /path/to/image checkpoints/checkpoint.pth --top_k 5 --category
 /path/to/image: Path to the image to classify.  
 checkpoints/checkpoint.pth: Model checkpoint file.  
 --top_k: Number of top predictions to return (default: 5).  
---category_names: Path to JSON file mapping class indices to names.  
+--category_names: Path to JSON file mapping category labels to their names.  
 --gpu: Use GPU for inference if available.  
 
 ## Note: 
